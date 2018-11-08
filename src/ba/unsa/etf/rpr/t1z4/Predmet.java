@@ -11,5 +11,20 @@ public class Predmet {
         this.sifra_predmeta = sifra_predmeta;
         this.max_broj_studenata = max_broj_studenata;
     }
+    public String getNaziv_predmeta() {
+        return this.naziv_predmeta;
+    }
+    public int getSifra_predmeta() {
+        return this.sifra_predmeta;
+    }
+    public int getMax_broj_studenata() {
+        return this.max_broj_studenata;
+    }
+    public void setNaziv_predmeta(String naziv_predmeta) {
+        this.naziv_predmeta = naziv_predmeta;
+    }
+    public void setSifra_predmeta(int sifra_predmeta) {
+        this.sifra_predmeta = sifra_predmeta;
+    }
 
 }
