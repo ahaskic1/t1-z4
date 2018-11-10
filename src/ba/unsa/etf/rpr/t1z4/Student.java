@@ -28,4 +28,5 @@ public class Student {
     public void setBroj_indexa(int broj_indexa) {
         this.broj_indexa = broj_indexa;
     }
+
 }

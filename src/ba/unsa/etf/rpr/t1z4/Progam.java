@@ -1,19 +1,21 @@
 package ba.unsa.etf.rpr.t1z4;
 
+
 public class Progam {
 
     public static void main(String[] args) {
-        Predmet rpr = new Predmet("rpr",1, 30);
-        Student asim = new Student("asim", "haskic", 17735);
-        System.out.println(rpr.getNaziv_predmeta() + rpr.getSifra_predmeta() + rpr.getMax_broj_studenata());
-        rpr.setNaziv_predmeta("RPR");
-        rpr.setSifra_predmeta(100);
-        System.out.println(rpr.getNaziv_predmeta() + rpr.getSifra_predmeta() + rpr.getMax_broj_studenata());
-        System.out.println(asim.getIme() + asim.getPrezime() + asim.getBroj_indexa());
-        asim.setIme("ASIM");
-        asim.setPrezime("HASKIC");
-        asim.setBroj_indexa(0);
-        System.out.println(asim.getIme() + asim.getPrezime() + asim.getBroj_indexa());
-	// write your code here
+        Predmet rpr = new Predmet("rpr", 1, 30);
+        Student asim1 = new Student("asim", "haskic", 17735);
+        Student asim2 = new Student("Asim", "haskic", 17735);
+        Student asim3 = new Student("ASim", "haskic", 17735);
+        rpr.upisi(asim1);
+        rpr.upisi(asim2);
+        rpr.upisi(asim3);
+        rpr.ispis();
+        if(asim1.equals(asim1)==true)
+        System.out.println("dasdasd");
+        rpr.ispisi(asim1);
+        rpr.ispis();
+        // write your code here
     }
 }
