@@ -12,8 +12,6 @@ public class Progam {
         rpr.upisi(asim2);
         rpr.upisi(asim3);
         rpr.ispis();
-        if(asim1.equals(asim1)==true)
-        System.out.println("dasdasd");
         rpr.ispisi(asim1);
         rpr.ispis();
         // write your code here
